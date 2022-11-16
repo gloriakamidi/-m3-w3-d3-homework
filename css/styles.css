@@ -1,0 +1,55 @@
+/* Variables */
+body {
+  background-color: rgb(218, 170, 14);
+  display: grid;
+}
+
+.flex-container {
+  margin: rgb(218, 170, 14);
+  display: flex;
+}
+
+.split {
+  height: 80%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  background-color: rgb(212, 213, 216);
+  flex: 1;
+}
+.left li {
+  display: inline;
+  color: rgb(255, 255, 255);
+}
+.left a {
+  color: rgb(255, 255, 255);
+}
+
+.right {
+  right: 0;
+  position: fixed;
+}
+
+img {
+  position: fixed;
+  float: left;
+}
+
+footer {
+  text-transform: bold;
+}
+
+/* Nest Main */
+main {
+  width: 1350px;
+  min-height: 535px;
+}
+
+/*# sourceMappingURL=styles.css.map */

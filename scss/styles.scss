@@ -1,4 +1,78 @@
 /* Variables */
+@import "colors.scss";
+body{
+    background-color:$color-container ;
+    display: grid; 
+}
+
+.flex-container {
+        //background-color: $color-container;
+        //padding: 50px;
+        margin:  $color-container;
+        //border: 1px solid #000;
+        display: flex;
+       // height: 500px;
+        //justify-content: space-between;
+       // margin: 0 auto;
+       // padding: 1em;
+       // width: 50%; 
+    }
+
+
+
+     .split {
+            height: 80%;
+            width: 50%;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            overflow-x: hidden;
+            padding-top: 20px;
+            //padding-left: 20px;
+            //padding-bottom: 50px;
+
+            } 
+     .left {
+            left: 0;
+            background-color: $color3 ;
+            //margin-top: 3%; 
+            //float: left;
+            //text-align: center;
+            flex: 1;
+
+            li {
+                display: inline;
+                color: $color2;
+            } 
+            a {
+                color: $color2;
+            }
+          
+        }
+    .right {
+            right: 0;
+           // background-color: ;
+           position: fixed;
+
+
+         }
+         img {
+            position: fixed;
+            //display: grid;
+            float: left;
+         }
+
+         footer {
+            text-transform: bold;
+         }
+
+    
+
+
+
+
+
+
 
 
 /* Nest Main */
@@ -6,5 +80,7 @@ main {
     width: 1350px;
     min-height:535px;
 }
+
+
 
 // Mixin or Extend for button
