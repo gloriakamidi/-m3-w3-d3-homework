@@ -1,16 +1,16 @@
 /* Nest Nav */
 nav {
     ul{
+        display: inline-block;
 
     }
-    li {
-
-    }
-    li{
-
-    }
-    li{
-        
+    
+   li {
+        display: inline;
+        color: $color2;
+    } 
+    a {
+       color: $color2;
     }
 
 }
